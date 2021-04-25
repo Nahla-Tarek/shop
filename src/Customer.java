@@ -4,8 +4,8 @@ public class Customer {
     public Customer() {
 
 
-        purchases[0][0] = i.getItem()[0][0];
-        purchases[1][0] = i.getItem()[1][0];
+        purchases[0][0] = i.getItem()[0][1];
+        purchases[1][0] = i.getItem()[1][1];
     }
     public int [][] getPurchases()
     {

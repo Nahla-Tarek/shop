@@ -1,9 +1,9 @@
-public class Cheque extends PaymentMethods  {
+public class Cheque extends PaymentMethods{
 
+     private final String receipt="paying"+" "+q.calculateTotalPrice()+" "+ "euros by cheque";
 
-    public void pay()
+   public String pay()
     {
-
-        Trans_System.out.println("paying " + getMoney() + "euros by cheque");
+      return receipt;
     }
 }

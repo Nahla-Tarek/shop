@@ -1,9 +1,9 @@
-public class Credit extends PaymentMethods  {
+public class Credit extends PaymentMethods{
 
+    private final String receipt="paying"+" "+q.calculateTotalPrice()+" "+ "euros by credit";
 
-    public void pay()
+    public String pay()
     {
-
-        Trans_System.out.println("paying " + getMoney() + "euros by visa");
+        return receipt;
     }
 }
